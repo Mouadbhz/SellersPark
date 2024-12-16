@@ -1,0 +1,20 @@
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .user-info, .payment-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  

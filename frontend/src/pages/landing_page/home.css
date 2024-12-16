@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/src/pages/images/back3.jpg');
+  background-size: cover;
+}
+
+/* Landing Page */
+.landing-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.landing-content {
+  flex: 2;
+  padding: 20px;
+}
+
+/* Additional styling for the image */
+.landing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 1cqb;
+  padding-top: 30px;
+}
+
+/* Landing Page Title */
+.landing-title {
+  font-family: 'Rowdies', sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: right;
+  position: relative;
+}
+
+.landing-title .first-sentence {
+  display: block;
+  margin-top: -200px;
+  margin-right: 358px;
+  margin-bottom: -13px;
+}
+
+.landing-title .second-sentence {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 280px;
+  position: relative;
+}
+
+.landing-title .second-sentence::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  background-color: #80FFDB;
+}
+
+.landing-title .landing-paragraph {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: left;
+  position: absolute;
+  bottom: -75px;
+  width: 90%;
+  margin-right: 130px;
+}
+
+/* Landing Buttons */
+.landing-buttons {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-top: 10px;
+  position: relative;
+  bottom: -185px;
+  margin-right: 50px;
+}
+
+.landing-btn {
+  background-color: #27419D;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 10px;
+  margin-right: 330px;
+}
+
+.landing-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.landing-btn2 {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 10px;
+  border: 1.5px solid #27419D;
+}
+
+.landing-btn2:hover {
+  box-shadow: 0px 0px 10px 3px #27419D;
+}

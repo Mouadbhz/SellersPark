@@ -1,0 +1,61 @@
+Backend install :
+python install django restframework restframeworkjwt ... 
+pip install python-social-auth 
+pip install django-shortuuidfield 
+
+
+FrontEnd install : 
+npm install --save axios react-router-dom redux react-redux redux-dev-devtools-extension redux-thunk (done you can use --force)
+
+don't forget to change the name of the project in django (ask chatgpt)
+
+
+admin:
+email: sellerspark@admin.com
+First name: Sellerspark
+Last name: Admin
+password: admin123@
+
+the gmail account :
+email: sellerspark2@gmail.com
+password : sellersparkadmin123
+
+the facebook account : 
+email: sellerspark2@gmail.com
+password : sellersparkadmin123
+
+
+
+
+{
+    "client": 6,  // 
+    "card_number": "1234567892589633", // 
+    "total": 171.97, // 
+    "items": [
+        {
+            "product": 1,
+            "qty": 2,
+            "price": 25.99,
+            "total": 51.98
+        },
+        {
+            "product": 4,
+            "qty": 1,
+            "price": 90.99,
+            "total": 90.99
+        },
+        {
+            "product": 5,
+            "qty": 1,
+            "price": 29.00,
+            "total": 29.00
+        }
+    ]
+}
+
+
+"build": "rd /s /q ..\\backend\\build && react-scripts build && xcopy /s /e /i build ..\\backend\\build",
+
+"build": "react-scripts build",
+
+

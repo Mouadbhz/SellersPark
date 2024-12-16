@@ -1,0 +1,86 @@
+.container-reset-password {
+    position: fixed;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 25px #27419D; /* Green shadow */
+    width: 80%;
+    height: 350px;
+    z-index: 1000;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 105px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .form-container-reset-password {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .reset-password-title {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 30px; /* Adjust font size */
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  
+  .password-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-reset-password {
+    width: calc(100% - 20px); /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .error-message-reset-password {
+    color: #e74c3c; /* Red color for error messages */
+    font-size: 12px; /* Adjust font size */
+    margin-top: -10px;
+  }
+  
+  .form-links-reset-password {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-links-reset-password a {
+    color: #27419D; /* Adjust link color */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: text-decoration 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .form-links-reset-password a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .submit-button-reset-password {
+    background-color: #27419D;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  
+  .submit-button-reset-password:hover {
+    background-color: #fff;
+    color: #27419D;
+    border: 1px solid #27419D;
+    box-shadow: 0px 0px 10px 3px #27419D;
+  }
+  

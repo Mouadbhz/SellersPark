@@ -1,0 +1,162 @@
+/* signup.css */
+
+.container-signup {
+border-radius: 30px;
+background-color: #fff;    box-shadow: 0 5px 25px #27419D; 
+    width: 80%;
+    max-width: 1200px; /* Adjust width as needed */
+height: 470px;    z-index: 1000;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+    margin-top: 70px;
+    margin-left: 105px;
+    display: flex; /* Add display flex to allow children to be flex items */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center horizontally */
+}
+
+
+.container-signup .form-container-signup {
+    display: flex; 
+    
+}
+
+.form-container-signup {
+    padding: 40px;
+    flex: 1; /* Added flex to take remaining space */
+}
+
+.signup-title {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 30px; /* Adjust font size */
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+
+.container-signup label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container-signup .name-container {
+    display: flex;
+}
+
+.container-signup .name-container input[type="text"] {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 20px; /* Adjust spacing between inputs */
+}
+
+.container-signup input[type="email"],
+.container-signup input[type="password"],
+.container-signup input[type="date"] {
+    width: calc(100% - 20px); /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.container-signup .name-container,
+.container-signup input.valid {
+    border-color: #2ecc71; /* Green border color for valid input */
+}
+
+.container-signup .name-container,
+.container-signup input.error {
+    border-color: #e74c3c; 
+}
+
+.container-signup .error-message {
+    color: #e74c3c; /* Red color for error messages */
+    font-size: 12px; /* Adjust font size */
+    margin-top: -10px;
+}
+
+.container-signup button {
+    background-color: #27419D;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+.disabled {
+    pointer-events: none; /* Disable pointer events */
+}
+
+.join-us-container {
+    padding: 20px;
+background-image: url(../../pages/images/back9.jpg);    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    flex: 1;
+    width: 100%; 
+    margin-top: -50px;
+    margin-right: -50px;
+    margin-left: -10px;
+
+
+  }
+  
+  .join-us-title {
+    margin-top: 80px;
+    font-family: 'Rowdies', sans-serif;
+margin-left: 10px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  
+  .join-us-text {
+    font-family: 'Urbanist', sans-serif;
+text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  button.google-signup-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 95px;
+    margin-bottom: 10px;
+  }
+  button.google-signup-button:hover {
+    box-shadow: 0 0 10px #007bff; /* Red shadow */
+  }
+  button.google-signup-button i {
+    width: 20px; /* Adjust icon size as needed */
+    margin-right: 10px; /* Adjust spacing between icon and text */
+  }
+  .join-us-login-text{
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+        font-size: 15px;
+        color: #ffffff;
+        margin-top: 80px;
+  }
+  .join-us-login-text  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+
+  }
+

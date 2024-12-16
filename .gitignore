@@ -1,0 +1,23 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore any IDE-specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignore build output directories
+dist/
+build/
+*.tgz

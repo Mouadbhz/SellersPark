@@ -1,0 +1,107 @@
+.seller-dashboard-container {
+  padding: 20px;
+}
+
+.seller-dashboard-main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seller-dashboard-content-container {
+  width: 100%;
+}
+
+.seller-dashboard-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.seller-dashboard-add-product-button {
+  display: flex;
+  align-items: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.seller-dashboard-plus-icon {
+  margin-right: 5px;
+}
+
+.seller-dashboard-product-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.seller-dashboard-product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.seller-dashboard-relative {
+  position: relative;
+}
+
+.seller-dashboard-object-cover {
+  object-fit: cover;
+}
+
+.seller-dashboard-absolute {
+  position: absolute;
+}
+
+.seller-dashboard-bg-white {
+  background-color: white;
+}
+
+.seller-dashboard-px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.seller-dashboard-py-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.seller-dashboard-py-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.seller-dashboard-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.seller-dashboard-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.seller-dashboard-font-bold {
+  font-weight: 700;
+}
+
+.seller-dashboard-font-medium {
+  font-weight: 500;
+}
+
+.seller-dashboard-mt-2 {
+  margin-top: 8px;
+}
+
+.seller-dashboard-ml-2 {
+  margin-left: 8px;
+}
+
+.seller-dashboard-mr-1 {
+  margin-right: 4px;
+}

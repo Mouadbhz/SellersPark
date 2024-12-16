@@ -1,0 +1,91 @@
+/* NavHome.jsx */signup-btn
+.nav-home {
+    background-image: url('../../pages/images/back3.jpg'); /* Add your image path here */
+    background-size: cover;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+  }
+  
+  .nav-home .nav-home-logo {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav-home .nav-home-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+  
+  .nav-home .nav-home-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .nav-home .nav-home-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-home .nav-home-links a:hover {
+    transform: scale(1.05);
+  }
+  
+  .nav-home .nav-home-links a:hover::after {
+    background-color: #000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-home .nav-home-buttons {
+    font-family: 'Rowdies', sans-serif;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  
+  /* Button Styles */
+  .nav-home .nav-home-button {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #27419D;
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: 1.5px solid #27419D;
+    transition: box-shadow 0.3s;
+  }
+  
+  .nav-home .nav-home-button:hover {
+    box-shadow: 0px 0px 10px 3px #27419D;
+  }
+  
+  .nav-home .signup-btn {
+    background-color: #27419D;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1.5px solid #27419D;
+  }
+  
+  .nav-home .signup-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #27419D;
+    border: 1.5px solid #27419D;
+  }
+  

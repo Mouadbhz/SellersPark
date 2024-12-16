@@ -1,0 +1,12 @@
+.name-container {
+  display: flex;
+}
+
+.name-container input[type="text"] {
+  width: 200px; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 20px; /* Adjust spacing between inputs */
+}

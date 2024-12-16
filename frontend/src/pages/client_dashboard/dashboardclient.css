@@ -1,0 +1,26 @@
+.clientcontainer {
+    background-image: url('/src/pages/images/back3.jpg');
+}
+  
+  .main-content {
+    display: flex;
+  }
+  
+  .rating-filter-container {
+    flex: 1;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+  
+  .product-cards-container {
+    flex: 1;
+    margin-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right:40px ;
+  }
+  

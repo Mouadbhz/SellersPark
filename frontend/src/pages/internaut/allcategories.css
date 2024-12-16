@@ -1,0 +1,15 @@
+.custom-container {
+  position: relative;
+}
+
+.navbarcl {
+  position: relative;
+  z-index: 2000; /* Ensure it's above the filter bar */
+}
+
+.custom-rating-filter-container {
+  position: absolute;
+  top: -110px; /* Adjust this value to ensure proper positioning below the Navbar */
+  left: 0;
+  width: 100%;
+}
