@@ -25,6 +25,19 @@ email: sellerspark2@gmail.com
 password : sellersparkadmin123
 
 
+code lines in auth_system/settings.py
+
+#SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '' #834671085688-jif8536jo4jjc03elbbcns1865tti52u.apps.googleusercontent.com
+#SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' #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
+# SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile', 'openid']
+# SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['first_name', 'last_name']
+
+#SOCIAL_AUTH_FACEBOOK_KEY = '' #289330234226077
+#SOCIAL_AUTH_FACEBOOK_SECRET = '' #c4cbd3f10ad7fbab2e114b86bd375da7
+# SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+# SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
+#     'fields': 'email, first_name, last_name'
+# }
 
 
 {
